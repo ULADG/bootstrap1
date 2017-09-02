@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> warsztat bootstrap</title>
+	<!-- bootstrap Styles -->
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<!-- main styles -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<nav class='navbar navbar-default'>
+		<div class='container'>
+			<div class="navbar-header">
+
+				<button type="button" class='navbar-toggle-collapsed' data-toggle='collapse' data-target='#nav-menu' aria-expanded='false'>
+					<span class='sr-only'>Toggle navigation</span>
+					<span class="icon-bar" ></span>
+					<span class="icon-bar" ></span>
+					<span class="icon-bar" ></span>
+				</button>
+				<a class="navbar-brand" href="#">Brand</a>
+				<div class="collapse navbar-collapse" id="nav-menu">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link menu 1</a></li>
+						<li><a href="#">Link menu 2</a></li>
+						<li><a href="#">Link menu 3</a></li>
+						<li><a href="#">Link menu 4</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- pokaz slajdów karuzela start -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+     
+      <div class="carousel-caption">to jest pierwszy slajd  <button class="btn btn default">Zobacz</button>
+    
+       
+      </div>
+    </div>
+    <div class="item">
+      
+      <div class="carousel-caption">to jest drugi slajd  <button class="btn btn default">Zobacz</button>
+        
+      </div>
+    </div>
+    <div class="item">
+      
+      <div class="carousel-caption">to jest trzeci slajd  <button class="btn btn default">Zobacz</button>
+        
+      </div>
+    </div>
+    <div class="item">
+      
+      <div class="carousel-caption">to jest czwarty slajd  <button class="btn btn default">Zobacz</button>
+        
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+	<!-- pokaz slajdów karuzela sstop -->
+
+
+	<div class="container" id="test">
+		<div class="row">
+			<div class="col-sm-6 col-lg-6 text center text-capitalize">To jest tresc paragrafu1
+
+			</div>
+			<div class="col-sm-6 col-lg-6">
+				to jest tresc paragrafu2
+			</div>
+			<div class="col-sm-3 col-lg-3">To jest tresc paragrafu3
+
+			</div>
+			<div class="col-sm-3 col-lg-offset-4 col-lg-3">
+				to jest tresc paragrafu4
+			</div>
+			<div class="col-sm-3 col-lg-3">To jest tresc paragrafu5
+
+			</div>
+			<div class="col-sm-3 col-lg-3">
+				to jest tresc paragrafu6
+			</div>
+			<button type="button" class="btn btn-success">Success</button>
+		</div>
+	</div>
+
+</body>
+<!-- script jQuery -->
+<script src="js/jquery-3.2.1.min.js"></script>
+
+<!-- script bootstrap -->
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+<!-- main script -->
+<script src="js/main.js"></script>
+
+
+</html>
